@@ -14,17 +14,3 @@ public class Lect1 {
 
 }
 
-class Example
-{  private int xA;
-	private String aText;
-
-	public Example(int xA, String aText) {
-		this.xA = xA;
-		this.aText = aText;
-	}
-	public Example(Example obj) {
-	      this (obj.xA, obj.aText);
-	      // or this.xA = obj.xA;  this.aText = obj.aText;
-	}
-
-}
