@@ -3,8 +3,6 @@
  */
 package Lecture1;
 
-import java.util.Date;
-
 /**
  * @author nasro
  *
@@ -27,12 +25,34 @@ public final class ImmutableCountry
    }
    public String toString() {return "\n name="+name+" ; indep date="+loc.toString()+" ; pop="+population;}
 
-   // caanot assign a value to a final name  - data member
+   // cannot assign a value to a final name  - data member
    //public void setName(String name){ this.name= name;}
-   // caanot assign a value to a final loc - data member
+   // cannot assign a value to a final loc - data member
    //public void setLocation(Location loc){ this.loc= loc;}
 }
 
 //subclass cannot inherit from final classes
 //class ChildClass extends ImmutableCountry
 //{}
+
+//testing final methods
+// a final method can be inherited?  yes/no
+//uncomment line 54 to see if a final method can be overriden?  yes/no
+class A
+{ int a;
+  final public void  methodofA1(int a){ this.a= a;}
+  final private void  methodofA2(int a){ this.a= 2*a;}
+  public void inherit(){System.out.println("methid in A class");}
+}
+
+class B extends A 
+{  // whatever data members of B
+	public void inherit() 
+		{ 	methodofA1(30); // final method inherited
+			//methodofA2(10); // why this final method is NOT inherited
+		System.out.println("B overriding the inherited methods=");}
+
+	//public void  methodofA(int a){ this.a= a+10;}
+
+
+}
