@@ -24,7 +24,6 @@ public class Copy_Constructor {
 		System.out.println("ex3="+ex3);
 		System.out.println("ex1="+ex1);
 		
-		
 		System.out.println("\n ----- testing  ex2 and ex4 ");		
 		Example ex2 = new Example(20, "obj2");
 		Example ex4 = new Example(ex2);
