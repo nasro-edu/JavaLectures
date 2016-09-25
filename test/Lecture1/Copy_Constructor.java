@@ -20,7 +20,7 @@ public class Copy_Constructor {
 		Example  ex3 = ex1;
 		System.out.println("---- after updating ex3 ");
 		ex3.setX(11);
-		//we change in ex3 not ex1, so what happen to ex1
+		 //we change in ex3 not ex1, so what happen to ex1
 		System.out.println("ex3="+ex3);
 		System.out.println("ex1="+ex1);
 		
