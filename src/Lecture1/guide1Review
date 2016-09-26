@@ -2,6 +2,7 @@ Part 1 - practical
 1. copy contsructor VS refernce assignment
 Copy_Constructor.java (~ 10min)
 
+
 2. Immutable and defence copy (deep copy)
 ImmutableCountry.java and Location.java
 class (2min) , methods (2 min) and data (15 min)

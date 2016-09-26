@@ -1,5 +1,4 @@
 package Lecture1;
-
 public class Location {
 	double  longitude, latitude;
 	
