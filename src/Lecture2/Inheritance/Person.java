@@ -106,6 +106,7 @@ class PartTimeEmployee extends Employee
 		super(emp.name, emp.age, emp.emp_Id, emp.experience, emp.qualif);
 		this.rate = emp.rate;	this.nberWorkingHours = emp.nberWorkingHours;
 	}
+	
 	@Override
 	public double getIncome() {
       	return (this.rate*this.nberWorkingHours);

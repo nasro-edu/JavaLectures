@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="Lecture2.Inheritance.PartTimeEmployee" project="Lectures" 
     file="/Lectures/src/Lecture2/Inheritance/Person.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="211" width="379" x="264" y="278"/>    
+    <position height="211" width="379" x="266" y="267"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
