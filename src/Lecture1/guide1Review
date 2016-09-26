@@ -1,0 +1,22 @@
+Part 1 - practical
+1. copy contsructor VS refernce assignment
+Copy_Constructor.java (~ 10min)
+
+2. Immutable and defence copy (deep copy)
+ImmutableCountry.java and Location.java
+class (2min) , methods (2 min) and data (15 min)
+
+3. Inheritance
+Main_InheritanceTest.java
+3.1 (~10min) which members are inherited and which are not
+private / static are not
+default, public and prottected are inherited
+
+3.2 (~10-15minmin) test constrcutor chaining
+
+4. Casting (20 to 30 min)
+Main_InheritanceCast.java
+
+4.1 upcasting 
+4.2 down-casting
+4.3 down-casting, instance of and  polymprohism
